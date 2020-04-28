@@ -5,7 +5,7 @@ const assert = require('assert');
 const app = express();
 app.use(bodyParser.json());
 // Connection URL
-const url = '<mongodb url>';
+const url = '<provendb url>';
 
 // Database Name
 const dbName = 'test';
